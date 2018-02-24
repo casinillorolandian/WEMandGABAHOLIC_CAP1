@@ -128,7 +128,7 @@
 						</a>
 				       		
 			       </div>
-			       <div class="overlay">
+			       <div class="overlay" data-toggle="tooltip" data-placement="right" title="click for new collections!">
 			       		
 			       			<div style="width:100%; height:100%; ">
 			       				<img src="images/wemlogo.png" alt="wem logo" style="width: 15%; height:auto;border:0; margin: 35% 42.5% 0;">
@@ -148,7 +148,7 @@
 						 </a>	
 				       		
 			       </div>
-			       <div class="overlay2">
+			       <div class="overlay2" data-toggle="tooltip" data-placement="right" title="click for new collections!">
 
 				       		<div style="width:100%; height:100%; ">
 				       			<img src="images/Gabaholiclogo.png" alt="gabaholic logo" style="width:15%;height:auto;border:0; margin: 0 42.5% 0;">
@@ -159,7 +159,10 @@
 			</div>
 		</div>
     </div>
-
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
 </body>
 </html
 
